@@ -13,7 +13,7 @@
 By addressing these objectives simultaneously, the goal is to optimize the manufacturing and supply chain operations, reduce costs, and improve overall product quality and customer satisfaction.
 
 # 🛠 Tools Used
-Tools used:
+# Tools used:
 
 Google Colab (library: Seaborn, Matplotlib, Pandas, Numpy, sklearn and scipy)
 
@@ -21,9 +21,9 @@ Machine Learning Models: Kmeans and DBscan
 
 Excel
 
-Documentation
-Python Analysis:-
-Table of Contents:
+# Documentation
+# Python Analysis:-
+# Table of Contents:
 1️⃣ Import Libraries: 📚 Import essential Python libraries such as pandas, numpy, scikit-learn, and matplotlib.
 
 2️⃣ Load Dataset: 📂 Load the dataset into a Pandas DataFrame, using functions like pd.read_excel().
