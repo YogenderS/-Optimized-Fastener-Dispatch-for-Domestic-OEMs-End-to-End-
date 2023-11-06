@@ -101,4 +101,5 @@ Continue to prioritize quality control measures to further reduce rejection rate
 
 The company has made substantial progress in reducing major rejections, rework, and sorting costs.
 Continued efforts in addressing root causes, targeted projects, and cost optimization will further improve operational efficiency and product quality.
-
+Power BI Links:
+https://app.powerbi.com/links/ktTlgbS1my?ctid=449b0324-0bd9-4b8c-b2fb-964e5051108e&pbi_source=linkShare
