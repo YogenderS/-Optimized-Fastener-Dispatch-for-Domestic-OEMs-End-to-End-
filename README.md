@@ -102,5 +102,30 @@ Continue to prioritize quality control measures to further reduce rejection rate
 The company has made substantial progress in reducing major rejections, rework, and sorting costs.
 Continued efforts in addressing root causes, targeted projects, and cost optimization will further improve operational efficiency and product quality.
 
+
+# Power BI Analysis:-Key Performance Indicators (KPIs)
+
+💲 Total Sales: Understand financial performance by measuring the revenue generated from sales.
+
+📉 COPQ (Cost of Poor Quality): Identify areas for improvement in the production process by tracking the cost associated with low-quality or defective parts.
+
+✅ Total OK Parts: Reflect production efficiency by monitoring the total number of parts that meet quality standards.
+
+🚫 Total Crack Parts: Highlight the need for quality control and improvement by keeping a record of parts with cracks or defects.
+
+🔄 Total Rework Plating Parts: Gain insights into production efficiency by measuring the number of parts that require rework in the plating process.
+
+# Dashboards:
+
+📈 Sales Analysis Dashboard: Make informed decisions about product lines, markets, and customer preferences by analyzing sales trends and performance.
+
+🏆 Top Customer Sales Trend Dashboard: Nurture key relationships, tailor offerings, and boost revenue by focusing on top-performing customers.
+
+📊 Bottom Customer Sales Trend Dashboard: Identify growth opportunities and enhance customer experience to improve sales with lower-performing customers.
+
+🛠️ Defect Analysis Dashboard: Ensure product quality and customer satisfaction by diving into quality-related KPIs to uncover defects, root causes, and areas for process optimization.
+
+These KPIs and dashboards are designed to provide a clear and visual way to monitor and improve various aspects of your business, from financial performance to production quality and customer relationships.
+
 Power BI Links:
 https://app.powerbi.com/links/ktTlgbS1my?ctid=449b0324-0bd9-4b8c-b2fb-964e5051108e&pbi_source=linkShare
