@@ -12,24 +12,12 @@
 
 By addressing these objectives simultaneously, the goal is to optimize the manufacturing and supply chain operations, reduce costs, and improve overall product quality and customer satisfaction.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-🛠 Tools Used
+# 🛠 Tools Used
 Tools used:
 
 Google Colab (library: Seaborn, Matplotlib, Pandas, Numpy, sklearn and scipy)
+
+Machine Learning Models: Kmeans and DBscan
 
 Excel
 
@@ -38,7 +26,7 @@ Python Analysis:-
 Table of Contents:
 1️⃣ Import Libraries: 📚 Import essential Python libraries such as pandas, numpy, scikit-learn, and matplotlib.
 
-2️⃣ Load Dataset: 📂 Load the dataset into a Pandas DataFrame, using functions like pd.read_csv() or pd.read_excel().
+2️⃣ Load Dataset: 📂 Load the dataset into a Pandas DataFrame, using functions like pd.read_excel().
 
 3️⃣ Exploratory Data Analysis: 👁️ Examine the first few rows of the dataset using df.head() to get a sense of the data.
 
@@ -56,40 +44,61 @@ Table of Contents:
 
 🧹 Clean and preprocess the data by handling categorical variables, scaling features, and addressing any data quality issues.
 
-5️⃣ Feature Engineering and Building ML Models (Random Forest, Naive Bayes, KNN): 🛠️ Feature engineering involves creating new features or transforming existing ones to improve model performance.
+5️⃣ Feature Engineering and Building ML Models (KMeans & DBscan): 🛠️ Feature engineering involves creating new features or transforming existing ones to improve model performance.
 
-🔄 Split the dataset into training and testing sets using train_test_split.
+# K-means Clustering vs. DBSCAN
+In the field of unsupervised machine learning, there are various clustering algorithms available. Two popular methods are K-means clustering and DBSCAN (Density-Based Spatial Clustering of Applications with Noise). Let's compare and contrast these two clustering techniques.
 
-🤖 Build and train machine learning models:
+# K-means Clustering
+🔍 Type: Distance-based clustering
 
-Random Forest: Create an instance of RandomForestClassifier or RandomForestRegressor and fit it to the training data. Naive Bayes: Use GaussianNB or other variants depending on the problem type (classification/regression). K-Nearest Neighbors (KNN): Instantiate KNeighborsClassifier or KNeighborsRegressor and train it on the training data. 📊 Evaluate model performance with appropriate metrics (e.g., accuracy, F1-score, mean squared error) using cross-validation or test data.
+🎯 Every observation: Becomes a part of some cluster eventually
 
-6️⃣ Feature Importance, Insights, and Recommendations: 📊 Determine feature importance using model-specific attributes (e.g., feature_importances_ for Random Forest).
+🔵 Cluster Shape: Forms clusters that have a shape of a hypersphere (a circle in 2D, a sphere in 3D, etc.)
 
-💡 Gain insights into which features have the most impact on the model's predictions.
+🎯 Sensitivity to Outliers: Sensitive to outliers
 
-📌 Provide recommendations or actionable insights based on the analysis, such as which features to focus on for improvement or which model performed the best.
+🔢 Number of Clusters: Requires the number of clusters as input
 
-Insights:
+# DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+🌐 Type: Density-based clustering
 
-1️⃣ Feature Importance: Both the domain knowledge and the decision tree model highlight "kcm" and "troponin" as critical features for predicting heart attacks. This suggests that these features contain valuable information for diagnosis.
+🎯 Every observation: Clearly separates outliers and clusters observations in high-density areas
 
-2️⃣ Model Performance: The Random Forest model outperforms the other two models significantly, with an accuracy of 97.98%. This indicates that Random Forest is the most suitable algorithm for this task, given the provided data.
+🌀 Cluster Shape: Forms clusters that have an arbitrary shape or clusters within clusters
 
-3️⃣ Naive Bayes: Although Naive Bayes shows a relatively high accuracy of 94.44%, it lags behind Random Forest. This might be due to the model's assumption of independence among features, which may not hold true for your data.
+🟢 Sensitivity to Outliers: Robust to outliers
 
-4️⃣ K-Nearest Neighbors (KNN): KNN has the lowest accuracy at 62.37%, which suggests that it might not be the best choice for this problem. This may be due to the sensitivity of KNN to noisy data and the curse of dimensionality.
+❓ Number of Clusters: Doesn’t require the number of clusters as input
 
-Recommendations:
+In summary, K-means clustering is distance-based and requires specifying the number of clusters in advance. It forms clusters that are hyperspheres and is sensitive to outliers. On the other hand, DBSCAN is a density-based clustering method that doesn't require specifying the number of clusters, can identify clusters with arbitrary shapes, and is robust to outliers.
 
-1️⃣ Focus on "kcm" and "troponin": Given their high importance in predicting heart attacks, medical professionals and researchers should pay special attention to the "kcm" and "troponin" values when assessing a patient's risk. These factors could be critical for early detection and intervention.
+# 🔍 Insights and Recommendations:
 
-2️⃣ Data Quality: Since the model's performance heavily relies on the quality of data, ensure that the data collection and preprocessing steps are accurate and comprehensive. Outliers and data noise can impact the effectiveness of machine learning models.
+# 🛠️ Insight 1: Major Rejection and Rework Causes
 
-3️⃣ Further Investigation: It's essential to delve deeper into the dataset to understand the relationships between these features and the occurrence of heart attacks. Investigate how "kcm" and "troponin" interact with other features to gain a more comprehensive understanding of the problem.
+Major Rejection: The primary issue is the occurrence of cracks.
+Major Rework: Non-uniform plating is a significant cause of rework.
+# 📌 Recommendation 1: Address Root Causes
 
-4️⃣ Consult Domain Experts: Collaboration with medical professionals and domain experts is crucial for interpreting model results and implementing recommendations effectively. Their expertise can provide valuable context and insights.
+Implement measures to prevent crack formation and ensure uniform plating to reduce major rejection and rework.
+# 🚀 Recommendation 2: Target 20-80 Rule
 
-About
-Data Analysis on Kaggle - Cardiovascular Health
+Focus on driving improvement projects for the 20% of parts responsible for 80% of the rejections to maximize impact and efficiency.
+# 💰 Insight 2: Reduced Sorting Cost
+
+Unnecessary sorting cost from the contractor has been successfully reduced from 3.9 lakhs/month to 1.8 lakhs/month.
+# 📊 Recommendation 3: Cost Optimization
+
+Continue efforts to minimize sorting costs by optimizing the sorting process and maintaining cost-effective contractor relationships.
+# 📉 Insight 3: Reduction in Rejection
+
+Rejection rates have been significantly reduced from 1975 kg/month to 375 kg/month.
+# 🔧 Recommendation 4: Focus on Quality Control
+
+Continue to prioritize quality control measures to further reduce rejection rates and enhance overall product quality.
+# 📈 Conclusion:
+
+The company has made substantial progress in reducing major rejections, rework, and sorting costs.
+Continued efforts in addressing root causes, targeted projects, and cost optimization will further improve operational efficiency and product quality.
 
